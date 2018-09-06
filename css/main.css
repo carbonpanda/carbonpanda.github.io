@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-ul.posts li.date {
+ul.posts div {
     list-style: none;
     font-size: 1.0em;
 }
