@@ -1,2 +1,3 @@
 name: CarbonPanda - Habitat Automation
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
