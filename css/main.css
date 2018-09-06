@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Verdana', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 p {
@@ -43,6 +43,6 @@ ul.posts li {
 }
 
 ul.posts div {
-    font-size: 1.0em;
+    font-size: 0.75em;
     font-family: 'Lucida Console', Monospace;
 }
