@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CarbonPanda - Habitat Automation, Launches Site"
+title: "CarbonPanda - Home Automation, Launches Site"
 date: 2018-09-06
 ---
 
