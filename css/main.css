@@ -28,7 +28,7 @@ h1 {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 
-div.post, p {
+p {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
@@ -59,4 +59,11 @@ ul.posts div {
     font-size: 0.75em;
     font-family: 'Lucida Console', Monospace;
     text-align: right;
+}
+
+div.post p {
+    font-family:'Verdana', 'Arial', 'Sans-Serif';
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
 }
