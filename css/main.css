@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 2.0em;
+    font-size: 1.5em;
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 
@@ -55,7 +55,7 @@ ul.posts li {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 
-ul.posts div {
+ul.posts div, p.meta {
     font-size: 0.75em;
     font-family: 'Lucida Console', Monospace;
     text-align: right;
