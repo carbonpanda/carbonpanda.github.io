@@ -13,18 +13,22 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 2.0em;
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
-p {
+
+div.post, p {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
