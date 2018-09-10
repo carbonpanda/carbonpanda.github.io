@@ -7,6 +7,6 @@ title: CarbonPanda - Habitat Automation blog
 
 	  {% for post in site.posts %}
 	    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	    <div>on {{ post.date | date_to_string }}</div>
+	    <div>on {{ post.date | date_to_string: "ordinal", "US" }}</div>
 	  {% endfor %}
 	</ul>
