@@ -30,7 +30,7 @@ Steps:
 
 Steps:
 
-1. Follow [DrZZs updated flashing instruction](http://drzzs.com/updated-sonoff-basic-flashing/) to flash the latest Tasmota firmware. Remember to set the Sonoff to programming mode by pressing down the button on Sonoff while plugging in the FTDI USB to Serial board to the USB port.
+1. Follow [DrZZs updated flashing instruction](http://drzzs.com/updated-sonoff-basic-flashing/) to flash the latest Tasmota firmware. Remember to set the Sonoff to programming mode by pressing down the button on Sonoff board while plugging in the FTDI USB to Serial board to the USB port.
 
    ![FTDI_connection](https://carbonpanda.github.io/images/FTDI_connection.jpg)
 
@@ -42,7 +42,7 @@ Steps:
 
    ![Sonoff_IP](https://carbonpanda.github.io/images/Sonoff_IP.jpg)
 
-4. Use a browser to enter the Sonoff Tasmota web interface with the assigned fixed IP. Or use Termite to setup the Sonoff. Please refer to Tasmota Wiki on the [commands](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands). 
+4. Use a browser to enter the Sonoff Tasmota web interface with the assigned fixed IP. Or use Termite to setup the Sonoff such as MQTT host, MQTT topic and switch mode. Please refer to Tasmota Wiki on the [commands](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands). 
 
 
 Before setup the MQTT connection, it will be better to think or design how to structure the MQTT topics. If there are multiple rooms and devices to control, it might be better to define a hierarchy to identify the devices. For instance, master-room\main-light, guest-room\main-light,  shower-room\water-heater, etc.
