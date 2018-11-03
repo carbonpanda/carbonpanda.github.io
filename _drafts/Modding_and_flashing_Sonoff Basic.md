@@ -21,7 +21,7 @@ Steps:
 
    ![5_pins_jumper_soldered](https://carbonpanda.github.io/images/5_pins_jumper_soldered.jpg)
 
-2. Solder the 1K Ohm resister to the Ground and GPIO14 pin. This is based on [DrZZs suggestion](http://drzzs.com/zzonoff-my-masterpiece-diy-smart-switch/) otherwise there will be too much noise or interference when a switch is connected to GPIO14.
+2. Solder the 1K Ohm resistor to the Ground and GPIO14 pin. This is based on [DrZZs suggestion](http://drzzs.com/zzonoff-my-masterpiece-diy-smart-switch/) otherwise there will be too much noise or interference when a switch is connected to GPIO14.
 
    ![1K_resister_soldered](https://carbonpanda.github.io/images/1K_resister_soldered.jpg)
 
