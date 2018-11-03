@@ -4,18 +4,13 @@ title: "Modding Sonoff Basic for Tasmota"
 date: 2018-11-03
 
 ---
-
-
-
 # Modding Sonoff Basic for Tasmota
-
 
 
 | Parts               | Qty  |                                                             |
 | ------------------- | ---- | ----------------------------------------------------------- |
 | Jumper pins         | 1    | ![](https://carbonpanda.github.io/images/5_pins_jumper.jpg) |
 | 1K Ohm SMD resistor | 1    | ![](https://carbonpanda.github.io/images/1K_resistor.jpg)   |
-
 
 
 Steps:
@@ -33,9 +28,9 @@ Steps:
 
 # Flashing Tasmota
 
-Steps
+Steps:
 
-1. Follow [DrZZs updated flashing instruction](http://drzzs.com/updated-sonoff-basic-flashing/) to flash the latest Tasmota firmware. Remember set the Sonoff to programming mode by pressing down the button on Sonoff while plugging in the FTDI USB to Serial board to the USB port.
+1. Follow [DrZZs updated flashing instruction](http://drzzs.com/updated-sonoff-basic-flashing/) to flash the latest Tasmota firmware. Remember to set the Sonoff to programming mode by pressing down the button on Sonoff while plugging in the FTDI USB to Serial board to the USB port.
 
    ![FTDI_connection](https://carbonpanda.github.io/images/FTDI_connection.jpg)
 
