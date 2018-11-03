@@ -45,4 +45,4 @@ Steps:
 4. Use a browser to enter the Sonoff Tasmota web interface with the assigned fixed IP. Or use Termite to setup the Sonoff such as MQTT host, MQTT topic and switch mode. Please refer to Tasmota Wiki on the [commands](https://github.com/arendst/Sonoff-Tasmota/wiki/Commands). 
 
 
-Before setup the MQTT connection, it will be better to think or design how to structure the MQTT topics. If there are multiple rooms and devices to control, it might be better to define a hierarchy to identify the devices. For instance, master-room\main-light, guest-room\main-light,  shower-room\water-heater, etc.
+Before setup the MQTT connection, it will be better to think or design how to structure the MQTT topics. If there are multiple rooms and devices to control, it might be better to define a hierarchy to identify the devices. For instance, master-room\main-light, guest-room\main-light, shower-room\water-heater, etc. However, if there is only one or two devices, then why bother.
