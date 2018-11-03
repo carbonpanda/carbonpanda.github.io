@@ -38,7 +38,7 @@ Steps:
 
 2. Setup Sonoff-Tasmota WIFI SSID and password entries to connect to home network using Termite. Just type *SSID1 your_home_SSID* then *Password1 your_wifi_password*.
 
-3. Allocate a fixed IP (personal preference) from home wireless router. You can find the SSID broadcasted by the Sonoff on the wireless router.
+3. Allocate a fixed IP (personal preference) from home wireless router. Use wireless router DHCP IP reservation function to assign a fixed IP.
 
    ![Sonoff_IP](https://carbonpanda.github.io/images/Sonoff_IP.jpg)
 
