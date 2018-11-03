@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Modding Sonoff Basic for Tasmota"
+title: "Modding Sonoff Basic to flash Tasmota"
 date: 2018-11-03
 
 ---
