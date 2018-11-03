@@ -10,8 +10,8 @@ tags: [sonoff, tasmota]
 
 
 | Parts               | Qty  |                                                             |
-| ------------------- | ---- | ----------------------------------------------------------- |
-| Jumper pins         | 1    | ![](https://carbonpanda.github.io/images/5_pins_jumper.jpg) |
+| ------------------- | :---: | ----------------------------------------------------------- |
+| Jumper pins         | 1    | ![](/images/5_pins_jumper.jpg) |
 | 1K Ohm SMD resistor | 1    | ![](https://carbonpanda.github.io/images/1K_resistor.jpg)   |
 
 
