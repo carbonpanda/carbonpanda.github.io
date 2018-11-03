@@ -71,15 +71,15 @@ div.post p {
 table{
     border-collapse: collapse;
     border-spacing: 0;
-    border:2px solid #000000;
+    border:2px solid #7fffff;
 }
 
 th{
-    border:2px solid #000000;
+    border:2px solid #7fffff;
     padding: 15px;
 }
 
 td{
-    border:1px solid #000000;
+    border:1px solid #7fffff;
     padding: 15px;
 }
