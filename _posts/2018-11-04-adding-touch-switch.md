@@ -7,8 +7,6 @@ tags: [sonoff, tasmota, touchswitch]
 
 ---
 
-# Adding a touch switch
-
 There are few reasons to add a touch switch to Sonoff:
 
 1. It is cool, especially with LED backlit.
