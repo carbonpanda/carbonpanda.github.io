@@ -1,11 +1,9 @@
 ```
----
 layout: post
 title: "Adding a touch switch to Sonoff Basic"
 date: 2018-11-04
 categories: [blog]
 tags: [sonoff, tasmota, touchswitch]
----
 ```
 
 Adding a touch switch
@@ -33,9 +31,9 @@ Steps:
 
 3. Power up Sonoff Basic via USB port using FTDI device and browse to Sonoff-Tasmota web interface. 
 
-4. Navigate to Configuration | Configure Module. 
+4. Navigate to **Configuration**, then **Configure Module**. 
 
-5. Set Module Type to 01 Sonoff Basic and GPIO14 Sensor to 09 Switch1.
+5. Set Module Type to **01 Sonoff Basic** and GPIO14 Sensor to **09 Switch1**.
 
    ![sonoff_switch_mode_09](\images\sonoff_switch_mode_09.jpg)
 
