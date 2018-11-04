@@ -1,10 +1,10 @@
-```
+---
 layout: post
 title: "Adding a touch switch to Sonoff Basic"
 date: 2018-11-04
 categories: [blog]
 tags: [sonoff, tasmota, touchswitch]
-```
+---
 
 Adding a touch switch
 
