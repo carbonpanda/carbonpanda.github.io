@@ -7,7 +7,7 @@ tags: [sonoff, tasmota, touchswitch]
 
 ---
 
-#Adding a touch switch
+# Adding a touch switch
 
 There are few reasons to add a touch switch to Sonoff:
 
