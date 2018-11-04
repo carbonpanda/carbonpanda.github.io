@@ -6,7 +6,7 @@ categories: [blog]
 tags: [sonoff, tasmota]
 
 ---
-# Modding Sonoff Basic for Tasmota
+# Modding Sonoff Basic
 
 
 | Parts               |   Qty   |                                                             |
