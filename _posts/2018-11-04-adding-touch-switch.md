@@ -37,3 +37,5 @@ Steps:
    ![sonoff_switch_mode_09](\images\sonoff_switch_mode_09.jpg)
 
 6. Click Save.
+
+The resistor between GPIO14 and Ground pins will filter off noise or interference introduced by the wire connecting the touch switch and Sonoff Basic board. Alternately, you can replace the connection wire with shielded wire or use ferrite bead, I guess. Without the resistor, I can trigger the relay by just squeezing the connecting wire. 
