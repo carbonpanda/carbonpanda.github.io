@@ -1,3 +1,5 @@
-name: CarbonPanda - Habitat Automation
+name: CarbonPanda - Home Automation
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-seo-tag
