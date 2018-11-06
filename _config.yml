@@ -1,4 +1,6 @@
 name: CarbonPanda - Home Automation
+description: A blog mainly for Home AUtomation.
+author: Max
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 plugins:
