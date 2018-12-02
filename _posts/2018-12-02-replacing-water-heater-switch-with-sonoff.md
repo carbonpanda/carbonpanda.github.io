@@ -1,12 +1,11 @@
 ---
 layout: post
 title: "Replacing water heater switch with Sonoff Basic"
-date: 2018-12-01
+date: 2018-12-02
 categories: [blog]
 tags: [sonoff, tasmota, touchswitch]
+
 ---
-
-
 
 # Using Sonoff Basic to control water heater
 
