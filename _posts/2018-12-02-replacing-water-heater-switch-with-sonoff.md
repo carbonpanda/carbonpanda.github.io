@@ -9,8 +9,6 @@ tags: [sonoff, tasmota, touchswitch]
 
 # Using Sonoff Basic to control water heater
 
-
-
 The only water heater is installed in the guest bathroom. It is very troublesome to turn it on or off when I'm in the master room. In addition, it is annoying when I found out it is being turned off by someone when I am taking shower. It will be nice if I can just ask Google Assistant or Siri to turn on the water heater for me. So this is the motivation for me to replace the old switch and automate it with a Sonoff Basic.
 
 The water heater has a max load of 7.5A. So it is within the 10A limit of Sonoff Basic. The build will be simple. The only troublesome part is replacing the wall switch box and the wiring.
@@ -80,6 +78,8 @@ Steps:
 
 1. Remove the old switch 
 
+   ![old gang boxes](https://carbonpanda.github.io/images/old-gang-box.jpg)
+
 2. Replace the old 1-gang back boxes
 
 3. Put back the other switch front plate
@@ -106,7 +106,7 @@ Steps:
 
 11. The Sonoff Basic shall be able to control the water heater via the touch switch now.
 
-    
+
 
     <video width="320" height="240" controls preload>
       <source src="https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4" type="video/mp4">
