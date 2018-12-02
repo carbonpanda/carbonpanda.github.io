@@ -39,9 +39,25 @@ Steps:
 
 1. Setup Home Assistant configuration.yaml file with following section:
 
-  ![HA MQTT](https://carbonpanda.github.io/images/ha-configuration-mqtt.JPG)
+   ```
+   # MQTT
+   mqtt:
+     broker: core-mosquitto
+     username: !secret mqtt_username
+     password: !secret mqtt_password
+   
+   # Switch
+   switch:
+     - platform: mqtt
+       name: "Water Heater"
+       command_topic: "cmnd/sonoff01/POWER"
+       state_topic: "stat/sonoff01/POWER"
+       qos: 1
+       payload_on: "ON"
+       payload_off: "OFF"
+       retain: false
+   ```
 
-   ![HA Switch](https://carbonpanda.github.io/images/ha-configuration-switch.JPG)
 
 2. Browse to Sonoff web console to setup WIFI and MQTT
 
@@ -89,11 +105,75 @@ Steps:
 
     ![done](https://carbonpanda.github.io/images/completed-water-heater-switch.jpg)
 
-11. The Sonoff Basic shall able to control the water heater via the touch switch.
+11. The Sonoff Basic shall be able to control the water heater via the touch switch now.
     <video width="320" height="240" controls>
       <source src="https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4" type="video/mp4">
     </video>
 
 
 
+## Add automation to the switch
 
+I want add following automation to the water heater:
+
+1. Turn on water heater from 8 pm to 11 pm.
+2. Turn off water heater after 30 min of usage from 11 pm to 8 pm.
+
+The following is the automations.yaml in Home Automation: (replace dot with dash)
+
+```
+- id: '001'
+  alias: Rule 1 - Turn on water heater 30 mins interval from 11 pm to 8 pm
+  trigger:
+    platform: state
+    entity_id: switch.water_heater
+    from: 'off'
+    to: 'on'
+    for:
+      minutes: 30
+  condition:
+    condition: time
+    after: '23:00:00'
+    before: '20:00:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.water_heater
+
+- id: '002'
+  alias: Rule 2 - Turn on water heater at 8 pm
+  trigger:
+    platform: time
+    at: '20:00:00'
+  condition:
+    condition: state
+    entity_id: switch.water_heater
+    state: 'off'
+  action:
+    service: switch.turn_on
+    entity_id: switch.water_heater
+
+- id: '003'
+  alias: Rule 3 - Turn off water heater after 11 pm
+  trigger:
+    platform: time
+    at: '23:00:00'
+  condition:
+    condition: state
+    entity_id: switch.water_heater
+    state: 'on'
+  action:
+    service: switch.turn_off
+    entity_id: switch.water_heater
+```
+
+
+
+## Let Siri to control the water heater
+
+Please following [Home Assistant - HomeKit integration](https://www.home-assistant.io/components/homekit/) instruction to enable Siri voice control. You will need HomePod, Apple TV, or iPad as a home hub to control the water heater from outside of your network.
+
+
+
+## Let Google Assistant to control the water heater
+
+Please following [Home Assistant - Google Assistant integration](https://www.home-assistant.io/components/google_assistant/) instruction to enable Google Assistant voice control.
