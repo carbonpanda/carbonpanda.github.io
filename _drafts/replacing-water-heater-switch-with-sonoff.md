@@ -39,9 +39,9 @@ Steps:
 
 1. Setup Home Assistant configuration.yaml file with following section:
 
-![HA MQTT](https://carbonpanda.github.io/images/ha-configuration-mqtt.JPG)
+  ![HA MQTT](https://carbonpanda.github.io/images/ha-configuration-mqtt.JPG)
 
-![HA Switch](https://carbonpanda.github.io/images/ha-configuration-switch.JPG)
+   ![HA Switch](https://carbonpanda.github.io/images/ha-configuration-switch.JPG)
 
 2. Browse to Sonoff web console to setup WIFI and MQTT
 
@@ -55,7 +55,7 @@ Steps:
 
 The Sonoff shall be able to turn on the light bulb by pressing the little push button, or by touching the touch switch. In addition, the Home Assistant shall also able to control it by calling service switch.turn_on.
 
-![calling switch.turn_on service](https://carbonpanda.github.io/images/ha-call-switch-service.jpg)
+  ![calling switch.turn_on service](https://carbonpanda.github.io/images/ha-call-switch-service.jpg)
 
 
 
