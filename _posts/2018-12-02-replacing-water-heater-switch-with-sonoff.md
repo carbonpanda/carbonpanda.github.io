@@ -170,12 +170,12 @@ The following is the automations.yaml in Home Automation:
 
 
 
-## Let Siri to control the water heater
+## Let Siri controls the water heater
 
 Please following [Home Assistant - HomeKit integration](https://www.home-assistant.io/components/homekit/) instruction to enable Siri voice control. You will need HomePod, Apple TV, or iPad as a home hub to control the water heater from outside of your network.
 
 
 
-## Let Google Assistant to control the water heater
+## Let Google Assistant controls the water heater
 
 Please following [Home Assistant - Google Assistant integration](https://www.home-assistant.io/components/google_assistant/) instruction to enable Google Assistant voice control.
