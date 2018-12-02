@@ -18,20 +18,20 @@ The water heater has a max. load of 7.5A. So it is within the 10A limit of Sonof
 
 The existing wall switch consists of two 1 gang box.
 
-![old wall switch](\\nas\media\HA\Github\Page\images\old-wall-switch-box.jpeg)
+![old wall switch](https://carbonpanda.github.io/images/old-wall-switch-box.jpeg)
 
 And there is a 220V small light bulb as the indicator light.
 
-![water heater switch plate](\\nas\media\HA\Github\Page\images\old-switch-front-plate.jpg)
+![water heater switch plate](https://carbonpanda.github.io/images/old-switch-front-plate.jpg)
 
 Since there is not sufficient room to house the Sonoff in the 1 gang back box, I need to get a 2 gang back box to house the Sonoff PCB. The Sonoff case is just too big. 
 
 | Parts                   | Qty  |                                                              |
 | ----------------------- | :--: | :----------------------------------------------------------- |
-| 2-gang back box         |  1   | ![gang box](\images\2_gang_back_box.jpg)                     |
-| Blank front plate       |  1   | ![Blank plate](\\nas\media\HA\Github\Page\images\blank-plate.jpg) |
+| 2-gang back box         |  1   | ![gang box](https://carbonpanda.github.io/images/2_gang_back_box.jpg) |
+| Blank front plate       |  1   | ![Blank plate](https://carbonpanda.github.io/images/blank-plate.jpg) |
 | New water heater switch |  1   | Just to reuse the small light bulb.                          |
-| 8A Fuse and fuse holder |  1   | ![Fuse](\\nas\media\HA\Github\Page\images\fuse.jpg)          |
+| 8A Fuse and fuse holder |  1   | ![Fuse](https://carbonpanda.github.io/images/fuse.jpg)       |
 
 ## Prepare the Sonoff switch
 
@@ -39,9 +39,9 @@ Steps:
 
 1. Setup Home Assistant configuration.yaml file with following section:
 
-![HA MQTT](\\nas\media\HA\Github\Page\images\ha-configuration-mqtt.JPG)
+![HA MQTT](https://carbonpanda.github.io/images/ha-configuration-mqtt.JPG)
 
-![HA Switch](\\nas\media\HA\Github\Page\images\ha-configuration-switch.JPG)
+![HA Switch](https://carbonpanda.github.io/images/ha-configuration-switch.JPG)
 
 2. Browse to Sonoff web console to setup WIFI and MQTT
 
@@ -51,11 +51,11 @@ Steps:
 
 5. Time to test out the Sonoff. I put the whole assembly on a ceramic bowl for safety. 
 
-   ![Sonoff with touch switch](\\nas\media\HA\Github\Page\images\sonoff-touch-assembly.jpg)
+   ![Sonoff with touch switch](https://carbonpanda.github.io/images/sonoff-touch-assembly.jpg)
 
 The Sonoff shall be able to turn on the light bulb by pressing the little push button, or by touching the touch switch. In addition, the Home Assistant shall also able to control it by calling service switch.turn_on.
 
-![calling switch.turn_on service](\\nas\media\HA\Github\Page\images\ha-call-switch-service.jpg)
+![calling switch.turn_on service](https://carbonpanda.github.io/images/ha-call-switch-service.jpg)
 
 
 
@@ -73,7 +73,7 @@ Steps:
 
 5. Hot glue the light bulb and touch switch to the new blank switch front plate.
 
-   ![](\\nas\media\HA\Github\Page\images\hot-glue-light-touch-switch.jpg)
+   ![attach touch switch](https://carbonpanda.github.io/images/hot-glue-light-touch-switch.jpg)
 
 6. Put a in-line fuse, 8A - 10A, between the main 220V source and the Sonoff. This is to safeguard the Sonoff.
 
@@ -81,17 +81,17 @@ Steps:
 
 8. Hot glue the Sonoff PCB board in the 2-gang back box.
 
-   ![](\\nas\media\HA\Github\Page\images\hot-glue-sonoff-pcb.jpg)
+   ![attach PCB](https://carbonpanda.github.io/images/hot-glue-sonoff-pcb.jpg)
 
 9. Make a paper cone, use duck tape, or whatever you fancy to cover the green Sonoff LED if you don't want to see the green status light.  
 
 10. Put back the blank switch front plate to the back box to finish the job.
 
-    ![](\\nas\media\HA\Github\Page\images\completed-water-heater-switch.jpg)
+    ![done](https://carbonpanda.github.io/images/completed-water-heater-switch.jpg)
 
 11. The Sonoff Basic shall able to control the water heater via the touch switch.
     <video width="320" height="240" controls>
-      <source src="\\nas\media\HA\Github\Page\images\sonoff-water-heater-switch.mp4" type="video/mp4">
+      <source src="https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4" type="video/mp4">
     </video>
 
 
