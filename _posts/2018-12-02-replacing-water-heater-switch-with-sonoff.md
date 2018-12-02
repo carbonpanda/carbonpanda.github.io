@@ -116,12 +116,12 @@ Steps:
 
 ## Add automation to the switch
 
-I want add following automation to the water heater:
+I want to add the following rules to the water heater:
 
 1. Turn on water heater from 8 pm to 11 pm.
 2. Turn off water heater after 30 min of usage from 11 pm to 8 pm.
 
-The following is the automations.yaml in Home Automation: (replace dot with dash)
+The following is the automations.yaml in Home Automation:
 
 ```
 - id: '001'
