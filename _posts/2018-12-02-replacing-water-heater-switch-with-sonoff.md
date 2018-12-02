@@ -90,7 +90,7 @@ Steps:
 
    ![attach touch switch](https://carbonpanda.github.io/images/hot-glue-light-touch-switch.jpg)
 
-6. Put a in-line fuse, 8A - 10A, between the main 220V source and the Sonoff. This is to safeguard the Sonoff.
+6. Put a fuse, 8A - 10A, between the main 220V source and the Sonoff. This is to safeguard the Sonoff.
 
 7. Connect the water heater to the Sonoff  in parallel with the little light bulb indicator.
 
