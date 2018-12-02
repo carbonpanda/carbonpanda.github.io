@@ -106,7 +106,10 @@ Steps:
     ![done](https://carbonpanda.github.io/images/completed-water-heater-switch.jpg)
 
 11. The Sonoff Basic shall be able to control the water heater via the touch switch now.
-    <video width="320" height="240" controls>
+
+    ![](https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4)
+
+    <video width="320" height="240" controls preload>
       <source src="https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4" type="video/mp4">
     </video>
 
