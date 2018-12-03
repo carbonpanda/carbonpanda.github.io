@@ -9,11 +9,13 @@ tags: [sonoff, tasmota, touchswitch]
 
 # Using Sonoff Basic to control water heater
 
-The only water heater is installed in the guest bathroom. It is very troublesome to turn it on or off when I'm in the master room. In addition, it is annoying when I found out it is being turned off by someone when I am taking shower. It will be nice if I can just ask Google Assistant or Siri to turn on the water heater for me. So this is the motivation for me to replace the old switch and automate it with a Sonoff Basic.
 
-The water heater has a max load of 7.5A. So it is within the 10A limit of Sonoff Basic. The build will be simple. The only troublesome part is replacing the wall switch box and the wiring.
 
-The existing wall switch consists of two 1 gang box.
+The only water heater in the apartment is installed in the guest bathroom. Sometime It is very troublesome to turn it on or off when I'm in the master room. It will be nice if I can just ask Google Assistant or Siri to turn on the water heater for me. Especially when I found out the water heater is not turn on right after I get into shower. So why not replace the old switch and automate it with a Sonoff Basic.
+
+The water heater has a max load of 7.5A. So it is within the 10A limit of Sonoff Basic. The build will be simple. The only troublesome part is replacing the wall switch box and the wiring. 
+
+The existing wall switch consists of two 1-gang boxes.
 
 ![old wall switch](https://carbonpanda.github.io/images/old-wall-switch-box.jpeg)
 
@@ -66,7 +68,7 @@ Steps:
 
    ![Sonoff with touch switch](https://carbonpanda.github.io/images/sonoff-touch-assembly.jpg)
 
-The Sonoff shall be able to turn on the light bulb by pressing the little push button, or by touching the touch switch. In addition, the Home Assistant shall also able to control it by calling service switch.turn_on.
+The Sonoff shall be able to turn on the red indicator light by pressing the little push button, or by touching the touch switch. In addition, the Home Assistant shall also be able to control it by calling service ***switch.turn_on***.
 
   ![calling switch.turn_on service](https://carbonpanda.github.io/images/ha-call-switch-service.jpg)
 
@@ -76,23 +78,23 @@ The Sonoff shall be able to turn on the light bulb by pressing the little push b
 
 Steps:
 
-1. Remove the old switch 
+1. Remove the old switch after turning off the main switch.
 
    ![old gang boxes](https://carbonpanda.github.io/images/old-gang-box.jpg)
 
-2. Replace the old 1-gang back boxes
+2. Replace the old 1-gang back boxes.
 
-3. Put back the other switch front plate
+3. Put back the other switch front plate.
 
-4. Drill a hole on the blank switch front plate for the little light bulb.
+4. Drill a hole on the blank switch front plate for the little red indicator light.
 
-5. Hot glue the light bulb and touch switch to the new blank switch front plate.
+5. Hot glue the indicator light and touch switch on the back of the blank switch front plate.
 
    ![attach touch switch](https://carbonpanda.github.io/images/hot-glue-light-touch-switch.jpg)
 
-6. Put a fuse, 8A - 10A, between the main 220V source and the Sonoff. This is to safeguard the Sonoff.
+6. Put a fuse, 8A - 10A, between the main 220V source (L) and the Sonoff (power in). This is to safeguard the Sonoff.
 
-7. Connect the water heater to the Sonoff  in parallel with the little light bulb indicator.
+7. Connect the water heater to the Sonoff (power out) in parallel with the little red indicator light
 
 8. Hot glue the Sonoff PCB board in the 2-gang back box.
 
@@ -104,11 +106,9 @@ Steps:
 
     ![done](https://carbonpanda.github.io/images/completed-water-heater-switch.jpg)
 
-11. The Sonoff Basic shall be able to control the water heater via the touch switch now.
+11. After turning on the main power switch, the Sonoff Basic shall be able to control the water heater via the touch switch.
 
-
-
-    <video width="320" height="240" controls preload>
+    <video width="640" height="480" controls preload>
       <source src="https://carbonpanda.github.io/images/sonoff-water-heater-switch.mp4" type="video/mp4">
     </video>
 
@@ -178,4 +178,4 @@ Please following [Home Assistant - HomeKit integration](https://www.home-assista
 
 ## Let Google Assistant controls the water heater
 
-Please following [Home Assistant - Google Assistant integration](https://www.home-assistant.io/components/google_assistant/) instruction to enable Google Assistant voice control.
+Please following [Home Assistant - Google Assistant integration](https://www.home-assistant.io/components/google_assistant/) instruction to enable Google Assistant voice control. The instruction can be a little confusing. Just read it carefully and you will get there. Also, do get Duck DNS plug-in installed first, as Google requires a secured endpoint.
