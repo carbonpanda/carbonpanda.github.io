@@ -11,7 +11,7 @@ tags: [sonoff, tasmota, touchswitch]
 
 
 
-The only water heater in the apartment is installed in the guest bathroom. Sometime It is very troublesome to turn it on or off when I'm in the master room. It will be nice if I can just ask Google Assistant or Siri to turn on the water heater for me. Especially when I found out the water heater is not turn on right after I get into shower. So why not replace the old switch and automate it with a Sonoff Basic.
+The only water heater in the apartment is installed in the guest bathroom. Sometime it is very troublesome to turn it on or off when I'm in the master room. It will be nice if I can just ask Google Assistant or Siri to turn on the water heater for me. Especially when I found out the water heater is not turn on right after I get into shower. So why not replace the old switch and automate it with a Sonoff Basic.
 
 The water heater has a max load of 7.5A. So it is within the 10A limit of Sonoff Basic. The build will be simple. The only troublesome part is replacing the wall switch box and the wiring. 
 
