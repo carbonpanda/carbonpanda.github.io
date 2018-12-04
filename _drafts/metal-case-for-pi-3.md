@@ -1,6 +1,6 @@
-# Fanless Pi 3 metal housing
+# Fanless Pi 3B/B+ metal housing
 My first Pi plastic housing fan has been getting dirty and noisy due to dust. So I was eager to throw it away and replace it with a true 
-fanless housing. During the search, I learnt there is metal case for Pi 3 and I managed to find one on Taobao.com. It is a perfect solution for me.
+fanless housing. During the search, I learnt there is metal case for Pi 3B and I managed to find one on Taobao.com. It is a perfect solution for me.
 
 There are two variants available: one for 3B and one for 3B+ due to the different chip location. I end up having both variants..
 
