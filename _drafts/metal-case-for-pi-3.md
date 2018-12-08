@@ -81,4 +81,4 @@ Because the Home Assistant is running on this Pi box, I use a `command_line` pla
 ```
 
 
-Then I can get the temperature reading from entity `sensor.hassio_cpu_temperature`. Note: Space is being replaced by underscore for the name value.
+Then I can get the temperature reading from entity `sensor.hassio_cpu_temperature`. Note: Space is being replaced by underscore on the name value.
