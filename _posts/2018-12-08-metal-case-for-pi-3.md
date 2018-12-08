@@ -21,6 +21,7 @@ So I was eager to throw it away and replace it with a true fanless housing. Duri
 There are two variants available: one for 3B and one for 3B+ due to the different chip location. I end up having both variants.
 
 ## Pros and Cons
+
 |      | Pros                          | Cons                                                         |
 | ---- | :---------------------------- | :----------------------------------------------------------- |
 | 1    | Fanless                       | Block wireless/BT signal                                     |
