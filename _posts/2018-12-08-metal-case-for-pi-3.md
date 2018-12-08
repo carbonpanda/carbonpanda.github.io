@@ -25,7 +25,7 @@ There are two variants available: one for 3B and one for 3B+ due to the differen
 | ---- | :---------------------------- | :----------------------------------------------------------- |
 | 1    | Fanless                       | Block wireless/BT signal                                     |
 | 2    | Clean                         | More expensive than plastic case                             |
-| 3    | Silent                        | Passive heat dissipation results in CPU warmer then using fan |
+| 3    | Silent                        | Passive heat dissipation results in CPU warmer than using fan |
 | 4    | Dissipate heat via metal body |                                                              |
 
 As suggested by others people having the same case, I filed the metal columns with fine sand paper to remove the paint. 
