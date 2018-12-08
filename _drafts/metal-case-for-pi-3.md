@@ -61,7 +61,7 @@ The additional heatsinks managed to lower the temperature by around 1 to 2°C.
 
 ![](https://carbonpanda.github.io/images/CPU-temperature.jpg)
 
-Note: NAS is hosted on a Pi 3B with metal case and same passive heatsinks running OpenMediaVault and Pi-hole DNS.
+Note: NAS is hosted on a Pi 3B with metal case and same passive heatsinks running OpenMediaVault and Pi-hole DNS. HASSIO running without heatsinks attached from 9:00 am - 12:00 noon and with heatsink from 12:00 noon onwards. 
 
 Obviously this is completely waste of money and time for such small amount of reduction. And I ordered two more sets for my other 3B and 3B+ anyway. ^_^;
 
