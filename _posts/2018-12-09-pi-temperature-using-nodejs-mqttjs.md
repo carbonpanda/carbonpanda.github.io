@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Node.js to read and publish Pi CPU temperature using MQTT.js"
+title: "Using Node.js and MQTT.js to read and publish Pi CPU temperature"
 date: 2018-12-09
 categories: [blog]
 tags: [Raspberry Pi, NAS, OMV, Pi-hole, temperature, Node.js, MQTT.js, Home Assistant]
