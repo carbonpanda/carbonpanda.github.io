@@ -39,6 +39,7 @@ h1 {
 
 .bg-div{
     overflow: hidden;
+    vertical-align: bottom;
     border-bottom: 1px solid #d5d5d5;
 }
 
