@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fanless metal case for Raspberry Pi 3B and B+"
+title: "Using Node.js to read and publish Pi CPU temperature using MQTT.js"
 date: 2018-12-09
 categories: [blog]
 tags: [Raspberry Pi, NAS, OMV, Pi-hole, temperature, Node.js, MQTT.js, Home Assistant]
