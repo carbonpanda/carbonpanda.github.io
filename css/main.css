@@ -28,6 +28,10 @@ h1 {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
 }
 
+img {
+    vertical-align: bottom;
+}
+
 p {
     font-family:'Verdana', 'Arial', 'Sans-Serif';
     font-size: 1.0em;
