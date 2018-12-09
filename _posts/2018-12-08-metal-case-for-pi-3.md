@@ -21,12 +21,16 @@ So I was eager to throw it away and replace it with a true fanless housing. Duri
 There are two variants available: one for 3B and one for 3B+ due to the different chip location. I end up having both variants.
 
 ## Pros and Cons
-|      | Pros                          | Cons                                                         |
-| :--: | :---------------------------- | :----------------------------------------------------------- |
-|  1   | Fanless                       | Block wireless/BT signal                                     |
-|  2   | Clean                         | More expensive than plastic case                             |
-|  3   | Silent                        | Passive heat dissipation results in CPU warmer than using fan |
-|  4   | Dissipate heat via metal body |                                                              |
+**Pros:**
+1. Fanless
+2. Clean
+3. Silent
+4. Dissipate heat via metal body
+
+**Cons:**
+1. Block wireless/BT signal
+2. More expensive than plastic case
+3. Passive heat dissipation results in CPU warmer than using fan
 
 As suggested by others people having the same case, I filed the metal columns with fine sand paper to remove the paint. 
 
