@@ -16,6 +16,10 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
+nav tr {
+    vertical-align: bottom;
+}
+
 a {
     text-decoration: none;
     color: #999;
@@ -54,7 +58,6 @@ nav {
     float: right;
     text-align: right;
     overflow:hidden;
-    text-align: center;
     vertical-algin: bottom;
 }
 
